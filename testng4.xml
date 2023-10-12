@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Car Loan">
+		<parameter name="URL" value="https://carloan.com/"/>
+		<parameter name="APIKey/username" value="12345"/>
+		<classes>
+			<class name="testngFramework.day3">
+				<methods>
+					<exclude name="API.*"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
