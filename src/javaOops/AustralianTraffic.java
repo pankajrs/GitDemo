@@ -29,6 +29,9 @@ public class AustralianTraffic implements CentralTraffic {
 	public void FlashYellow() {
 		// TODO Auto-generated method stub
 		System.out.println("FlashYellow implementation");
+		System.out.println("FlashRed implementation");
+		System.out.println("FlashBlue implementation");
+		System.out.println("FlashWhite implementation");
 	}
 
 }
